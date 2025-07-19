@@ -1,0 +1,152 @@
+/* styles.css */
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #84a1f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #f9f9f9;
+    
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #808f9c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5b6490;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #679ab7;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #555;
+}
+
+.social-icons a {
+    margin-left: 15px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.education-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.section-title {
+    display: inline-block;
+    background-color: #2851A3;
+    color: white;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.timeline {
+    position: relative;
+    padding-left: 40px; /* Creates spacing for the vertical line */
+    border-left: 2px solid #ccc;
+}
+
+.timeline-item {
+    position: relative;
+    padding: 20px 0;
+}
+
+.timeline-item:before {
+    content: "";
+    position: absolute;
+    left: -14px; /* Adjusts the position of the circle */
+    top: 20px;
+    width: 12px;
+    height: 12px;
+    background-color: #2851A3;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.year {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 10px; /* Aligns the year with the content */
+}
+
+.timeline-content {
+    margin-left: 20px; /* Creates spacing between the year and content */
+}
+
+.timeline-content h3 {
+    font-size: 1.2em;
+    color: #2851A3;
+    margin-bottom: 5px;
+}
+
+.timeline-content p {
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.6;
+}

@@ -1,0 +1,177 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Aligns elements at the top */
+    background-color: #fcfcf9;
+    height: 100vh;
+}
+
+/* Header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px; /* Reduced padding to move header closer to the top */
+    background-color: #fcfcf9;
+    position: relative;
+    margin-top: 0; /* Ensures no extra space above */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #808f9c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5b6490;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #679ab7;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #555;
+}
+
+/* Container */
+.contact-container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Adds some space between header and container */
+}
+
+/* Left Side - Contact Info */
+.contact-info {
+    flex: 1;
+    padding-right: 50px;
+    border-right: 1px solid #ddd;
+}
+
+.contact-info h3 {
+    letter-spacing: 5px;
+    font-size: 0.9em;
+    color: #888;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    margin-bottom: 20px;
+}
+
+.contact-info h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1em;
+    color: #555;
+}
+
+.icon {
+    font-size: 1.2em;
+    color: #b399d4;
+}
+
+/* Right Side - Contact Form */
+.contact-form {
+    flex: 2;
+    padding-left: 50px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea,
+input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    resize: vertical;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: #aaa;
+}
+
+.form-group {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group input {
+    flex: 1;
+}
+
+button {
+    background-color: #b399d4;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a183c5;
+}

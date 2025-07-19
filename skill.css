@@ -1,0 +1,225 @@
+/* styles.css */
+
+/* Existing Styles */
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fcfcf9;
+}
+
+
+/* Header */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color:  #fcfcf9;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #808f9c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5b6490;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #679ab7;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #555;
+}
+/* styles.css */
+
+/* styles.css */
+
+/* Reset and Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcfcf9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styling */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fcfcf9;
+        
+}
+
+.logo-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #808f9c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #333;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #5b6490;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #679ab7;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #555;
+}
+
+/* Skills Section Styling */
+.skills-section {
+    text-align: center;
+    padding: 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.skills-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.skills-subtitle {
+    color: #a0a0a0;
+    margin-bottom: 40px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-card {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px); /* Makes 3 cards fit in a row */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.skill-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+/* Circular Progress Animation */
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    background: conic-gradient(
+      #c5c5b0 calc(var(--percentage) * 3.6deg),
+      #e0e0e0 0deg
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fill-progress 2s ease-out forwards;
+}
+
+.circle span {
+    position: absolute;
+    font-size: 1.8em;
+    color: #333;
+}
+
+/* Define keyframes for circle fill */
+@keyframes fill-progress {
+    0% {
+        background: conic-gradient(
+            #c5c5b0 0deg,
+            #e0e0e0 0deg
+        );
+    }
+    100% {
+        background: conic-gradient(
+            #c5c5b0 calc(var(--percentage) * 3.6deg),
+            #e0e0e0 0deg
+        );
+    }
+}
+
+.progress-text {
+    margin-top: 20px;
+    color: #a0a0a0;
+}
+
+.progress-text p {
+    margin: 5px 0;
+}
+
+.progress-text span {
+    font-weight: bold;
+    color: #c5c5b0;
+}

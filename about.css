@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #c4cacb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-color: #fcfafa;
+    box-shadow: 0px 4px 12px rgba(251, 251, 251, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 800px;
+    max-width: 100%;
+    align-items: center; /* Centers content vertically */
+}
+
+.profile {
+    flex: 1;
+    background-color: #f5f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.profile img {
+    width: 100%; /* Full width of the profile section */
+    border: 3px solid #f8f7f7; /* Border around the image */
+    border-radius: 5px; /* Small border radius for subtle rounded corners */
+}
+
+.info {
+    flex: 2;
+    padding: 30px;
+}
+
+.info h1 {
+    font-size: 1.8em;
+    color: #4274b5;
+    margin-bottom: 10px;
+}
+
+.info h2 {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.info p {
+    color: #0b285e;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.info .contact-info {
+    margin-top: 20px;
+}
+
+.info .contact-info p {
+    color: #053270;
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.info .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2851A3;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.details p {
+    margin-bottom: 8px;
+}
+
+strong {
+    color: #333;
+}
+
+.interests {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+    color: #1b1c19;
+}
+
+.interests span {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+}
